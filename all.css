@@ -2,3 +2,15 @@
   background-color: rgba(51,94,234,.1);
   color: #335eea;
 }
+.mobile-img{
+  display: none;
+}
+
+@media(max-width:767px){
+  .pc-img{
+    display: none;
+  }
+  .mobile-img{
+    display: block;
+  }
+}
